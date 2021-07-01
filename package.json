@@ -2,9 +2,9 @@
   "name": "linaria-demo",
   "version": "1.0.0",
   "description": "Demo project for linaria.now.sh",
-  "private": true,
-  "main": "./dist/index.js",
-  "module": "./dist/index.js",
+  "private": false,
+  "main": "./output/index.js",
+  "module": "./output/index.js",
   "scripts": {
     "rollup": "./node_modules/.bin/rollup -c",
     "start": "webpack-dev-server --hot --inline",
